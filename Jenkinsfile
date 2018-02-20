@@ -17,6 +17,8 @@ mavenNode {
     container(name: 'maven') {
 
       stage('Build Release'){
+        ech "Test maven"
+        sh "mvn clean -B --e -U deploy -Dmaven.test.skip=${skipTests} -P openshift"
         mavenCanaryRelease {
           version = canaryVersion
         }
