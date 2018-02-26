@@ -6,6 +6,16 @@ IMPORTANT: As part of the process of creating this booster, launch.openshift.io 
 
 == Runing the Booster Locally
 
+
+
+
+
+
+
+
+
+
+
 To run this booster on your local host:
 
 
